@@ -83,7 +83,7 @@ function draw() {
   }
 }
 
-function keyPressed(){
+function keyPressed(){  //recomiendo que presione "R" al inicio (para que los audios funcionen correctamente)
   if (key === 'r' || key === 'R') {
     sfxSel.play();
      reset();
